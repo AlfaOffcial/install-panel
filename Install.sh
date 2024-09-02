@@ -63,8 +63,9 @@ check_token() {
   read -r USER_TOKEN
 
   if [ "$USER_TOKEN" = "alfa" ]; then
-    echo -e "${GREEN}AKSES BERHASIL${NC}}"
-      echo -e "${GREEN}Buy dulu Gih Ke Alfa Offc${NC}"
+        echo -e "${GREEN}AKSES BERHASIL${NC}}"
+  else
+    echo -e "${GREEN}Buy dulu Gih Ke Alfa Offc${NC}"
     echo -e "${YELLOW}TELEGRAM : @alfaofficial9163${NC}"
     echo -e "${YELLOW}WHATSAPP : 6282226769163${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
